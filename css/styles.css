@@ -12,6 +12,7 @@
     max-width: 496px;
     margin: 0 auto;
     margin-bottom: 48px;
+    background-image: ;
 }
 .hea_b{
     font-weight: 700;
@@ -252,6 +253,7 @@ a:hover{
 .li-a{
     list-style: none;
     flex-basis: calc((100% - 72px) / 4);
+   
 }
 .li-b{
     list-style: none;
@@ -325,3 +327,21 @@ margin: 0;
         clip: rect(0 0 0 0);
         overflow: hidden;
       }
+    .boxx{
+        width: 264px;
+        height: 112px;
+        border: solid 1px;
+        border-radius: 4px;
+        border-color: #8E8F99;
+        background-color: #F4F4FD;
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        margin-bottom: 8px;
+    }
+    .items{
+        
+    }
+    svg{
+        fill: red;
+    }
