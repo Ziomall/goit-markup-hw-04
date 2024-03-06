@@ -12,7 +12,7 @@
     max-width: 496px;
     margin: 0 auto;
     margin-bottom: 48px;
-    background-image: ;
+    background-image: url(peopleoffice.jpg);
 }
 .hea_b{
     font-weight: 700;
@@ -336,6 +336,7 @@ margin: 0;
         background-color: #F4F4FD;
         display: flex;
         justify-items: center;
+        justify-content: center;
         align-items: center;
         margin-bottom: 8px;
     }
