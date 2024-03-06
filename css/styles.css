@@ -107,11 +107,12 @@
     color: #FFFFFF;
     padding-top: 188px;
     padding-bottom: 188px;
-    background-image: url(../images/people-office.jpg);
+    max-width: 1440px;
+    background-image: linear-gradient(rgb(46, 47, 66, 0.7), rgb(46, 47, 66, 0.7), url(../images/people-office.jpg));
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    
+
 
 }
 .section-b{
