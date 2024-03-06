@@ -412,4 +412,10 @@ margin: 0;
     .to-ten-div{
          
     }    
-  
+  .link-a::after{
+    
+  }
+  .footer .container{
+    display: flex;
+    align-items: baseline;
+  }
