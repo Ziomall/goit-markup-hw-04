@@ -202,7 +202,7 @@ a:hover{
     
 }
 .list::after{
-    content:;
+    
     width: 100%;
     position: absolute;
     left: 0;
