@@ -80,6 +80,7 @@
 .hsek-d-list-a{
     list-style: none;
     width: calc((100% - 48px) / 3);
+    box-shadow: inset;
 }
 .div-hsek-d{
     padding: 32px 16px;
