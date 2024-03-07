@@ -209,6 +209,7 @@ a:hover{
     padding-top: 24px;
     padding-bottom: 24px;
     position: relative;
+    transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -232,6 +233,7 @@ a:hover{
 .list{
     font-style: normal;
     color: #404bbf;
+    transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     
@@ -487,4 +489,5 @@ margin: 0;
     width: 100%;
     transform: translateY(100%);
     overflow: hidden;
+    
   }
