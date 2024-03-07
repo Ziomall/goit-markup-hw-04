@@ -163,6 +163,8 @@ button {
     border: none;
     transition-property: all; 
     border-radius: 4px; 
+    background-color: #4D5AE5;
+    transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     }
 .button:hover, .button:focus{
