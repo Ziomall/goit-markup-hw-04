@@ -394,9 +394,21 @@ margin: 0;
         width: 40px;
         height: 40px;
         gap: 24px;
-
+    }
+    .media-two{
+        width: 40px;
+        height: 40px;
+        gap: 24px;
     }
     .li-media{
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        gap: 24px;
+        margin: 0;
+        padding: 0;
+    }
+    .li-media-two{
         list-style: none;
         display: flex;
         justify-content: center;
