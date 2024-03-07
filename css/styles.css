@@ -85,6 +85,7 @@
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
+    
 }
 .paragraph{
     font-weight: 400;
@@ -154,9 +155,9 @@
     height: 56px;
     cursor: pointer;
     margin: 0 auto;
-    background-color: 250ms;
-    transition: cubic-bezier(0.4, 0, 0.2, 1);
-
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 button { 
     cursor: pointer; 
@@ -164,8 +165,6 @@ button {
     transition-property: all; 
     border-radius: 4px; 
     background-color: #4D5AE5;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     }
 .button:hover, .button:focus{
     background-color: #404BBF;
@@ -414,6 +413,7 @@ margin: 0;
         width: 40px;
         height: 40px;
         gap: 24px;
+        
     }
     .li-media{
         list-style: none;
@@ -439,6 +439,9 @@ margin: 0;
         border-radius: 50%;
         justify-content: center;
         align-items: center;
+        transition-property: background-color;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     }
     .link-media-a{
         width: 100%;
@@ -448,6 +451,10 @@ margin: 0;
         border-radius: 50%;
         justify-content: center;
         align-items: center;
+        transition-property: background-color;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
     }
     .link-media-a:hover, .link-media-a:focus{
         background-color: #404bbf;
@@ -489,6 +496,7 @@ margin: 0;
   }
   .giewont{
     position: relative;
+    overflow: hidden;
   }
   .giewont-par{
     position: absolute;
@@ -500,7 +508,13 @@ margin: 0;
     background-color: #4d5ae5;
     height: 100%;
     width: 100%;
+    top: 0;
+    left: 0;
     transform: translateY(100%);
-    overflow: hidden;
-    
+    transition-property: transform;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .hsek-d-list-a:hover .giewont-par{
+    transform: translateY(0%);
   }
