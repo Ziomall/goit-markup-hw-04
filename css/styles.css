@@ -205,6 +205,8 @@ a:hover{
     padding-top: 24px;
     padding-bottom: 24px;
     position: relative;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .link-b{
     font-weight: 500;
@@ -433,8 +435,7 @@ margin: 0;
     height: 4px;
     background-color: #404bbf;
     border-radius: 2px;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    
 
   }
   .footer .container{
