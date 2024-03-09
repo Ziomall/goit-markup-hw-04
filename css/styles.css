@@ -268,6 +268,7 @@ a:hover {
   letter-spacing: 0.02em;
   color: #434455;
   transition: color 250ms;
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .address_a:focus {
   color: #404bbf;
