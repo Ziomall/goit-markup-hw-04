@@ -75,7 +75,7 @@
 .hsek-d-list-a {
   list-style: none;
   width: calc((100% - 48px) / 3);
-  transition-property: box-shadow;
+  transition: box-shadow;
   transition-duration: 250ms;
 }
 .div-hsek-d {
